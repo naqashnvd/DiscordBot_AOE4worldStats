@@ -10,8 +10,9 @@ This bot checks [AOE4World](https://aoe4world.com/) for your latest matches and 
 5. Set Environment Variables in Railway:
    - `DISCORD_TOKEN` = your Discord bot token
    - `DISCORD_CHANNEL_ID` = channel ID where the bot should post
-   - `PLAYER_PROFILE_ID` = your aoe4world profile id (e.g. `1234567:user1,1234567:user2`)
+   - `PLAYER_PROFILE_ID` = your aoe4world profile id (e.g. `1234567-user1,1234567-user2`)
 
 The bot will check AOE4World every 2 minutes for new matches and post details in your channel.
+
 
 
