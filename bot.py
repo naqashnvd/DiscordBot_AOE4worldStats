@@ -16,7 +16,7 @@ PLAYER_PROFILE_IDS = [p.strip() for p in PLAYER_PROFILE_IDS.split(",") if p.stri
 if not DISCORD_TOKEN or not PLAYER_PROFILE_IDS or not DISCORD_CHANNEL_ID:
     raise ValueError("Missing required environment variables!")
 
-AOE4_API_TEMPLATE = "https://aoe4world.com/api/v0/players/{}/games"
+AOE4_API_TEMPLATE = "https://aoe4world.com/api/v0/players/{}/games?limit=1"
 
 # ---- BOT SETUP ----
 intents = discord.Intents.default()
